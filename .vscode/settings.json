@@ -1,0 +1,4 @@
+{
+  // Build into a build/ folder next to each cv.tex (en/build, de/build)
+  "latex-workshop.latex.outDir": "%DIR%/build"
+}
