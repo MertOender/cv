@@ -1,0 +1,228 @@
+% Welcome to the simple DIS curriculum vitae template!
+% Please delete any sections that do not apply to your past experiences. We do not expect that applicants will have itmes for all of the sections included here. You can also rename or revise sections to best fit with your personal accomplishments.
+% The final document should not exceed 3 pages
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage[sfdefault]{inter} 
+\usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{0.0in}
+\addtolength{\evensidemargin}{0.0in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{0.2in}
+\addtolength{\textheight}{0.0in}
+
+
+\urlstyle{same}
+
+%\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \it\vspace{3pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+
+\begin{center}
+    { \textbf{\Huge \scshape Mert Önder} \\ \vspace{3pt}
+   \small +49 17684492334 $|$ {\underline{\url{mertonder51@gmail.com}}} $|$ {\underline{\url{www.linkedin.com/in/mert--onder/}}} $|$ {\underline{\url{www.github.com/MertOender}}}
+\end{center}}
+
+
+
+
+%-----------EDUCATION-----------
+% Please list your current institution first and then past schools in reverse chronology. No need for grades, etc. You do not need to include high school but may do so if there are accomplishments you would like to highlight.
+\section{Bildung}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if in progress)
+{Technische Universität München}{Oktober 2022 -- August 2025}
+        {B.Sc Elektrotechnik und Informationstechnik}{München, Deutschland}
+    \resumeSubheading
+        {Deutsche Schule Istanbul}{September 2017 -- Juni 2022}
+        {Deutsche Auslandsschule - Abitur: 1.5}{Istanbul, Türkei}
+
+\resumeSubHeadingListEnd
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Erfahrung}
+% if you have been employed, do volunteer activities, or have held other formal or informal jobs, you can list them here.   
+\resumeSubHeadingListStart
+\resumeSubheading
+        {Tutor - Systemtheorie}{April 2024  -- laufend}
+        {Lehrstuhl für Methoden der Signalverarbeitung-Dr.-Ing. Michael Joham\hspace{0.3cm}}{München, Deutschland}
+          \vspace{0.cm}
+\resumeSubheading
+        {Assesment of Neurological Diseases}{Januar 2024  --  laufend}
+        {TUM Projektwoche}{München, Deutschland}
+        \resumeItemListStart
+        \small\resumeItem{Entwicklung einer App in C#, um Daten von Patienten mit Multipler Sklerose zu sammeln und neue Methoden zur Bewertung zu finden}
+        \resumeItem{Aktuell Verfassung eines Papers über unsere Ergebnisse}
+        \resumeItemListEnd
+        \vspace{0.1cm}
+\resumeSubheading
+        {Blockpraktikum C++}{März 2024}
+        {Technische Universität München}{München, Deutschland}
+        \resumeItemListStart
+        \small\resumeItem{Entwicklung eines Brettspiels „Mühle“ mit einem Team von 3 Personen}
+        \resumeItem{Erfahrung in großen C++ Projekten und Erstellung von Qt-Projekten gesammelt}
+        \resumeItemListEnd
+        \vspace{0.1cm}
+\resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if ongoing)
+        {Advisor Programm}{Oktober 2022  -- Juli  2023}
+        {Teamleiter}{München, Deutschland}
+      \resumeItemListStart
+        \small\resumeItem{Führung eines Teams von 10 Personen zur Erstellung eines Küchenroboters, der individuelle Sandwiches herstellt}
+        \resumeItem{Design und Bau der Körperkomponenten mittels 3D-Modellierung}
+        \resumeItem{Programmierung des Mikrocontrollers des Roboters mit C als Programmiersprache}
+        \resumeItem{Moderation von Gruppentreffen und Festlegung von Meilensteinen}
+         \resumeItem{{\url{www.ce.cit.tum.de/lsr/lehre/advisor/aktuelles/}}}
+        \resumeItemListEnd
+         
+\resumeSubHeadingListEnd
+% % % % END OPTIONAL SECTION PROFESSIONAL EXPERIENCE % % % %
+
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE
+%-----------RESEARCH PRESENTATIONS-----------
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Zertifikate und Auszeichnungen}
+% this section can include experience gained in coursework, or group or independent research projects
+% delete or add Subheading sections as needed
+\resumeSubHeadingListStart
+\resumeSubheading   
+        {AI Programming with Python - Bertelsmann}{December 2023 - laufend}
+        {Stipendiat der Online-Plattform Udacity}{Online, Self-paced}\break
+        \vspace{0.1cm}
+\resumeSubheading   
+        {Erster Platz im Advisor Project}{Juli 2023}
+        {Technische Universität München}{München, Deutschland}\break
+        \vspace{0.1cm}
+      
+\resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if ongoing)
+        {Object-oriented Programming}{October 2022}
+        {Technische Universität München}{Online, Self-paced}
+      \resumeItemListStart
+        \small\resumeItem{Certificate ID: f2bc72744f3a44358042d4826053d6d5}
+        \vspace{0.1cm}
+    \resumeItemListEnd
+\resumeSubheading   
+        {German C1 language certificate}{December 2021}
+        {Goethe-Institut}{Istanbul, Türkei}
+      \resumeItemListStart
+        \small\resumeItem{Bestanden mit 71,5 Punkten}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+\section{Technische Fähigkeiten} 
+% It is not expected that applicants will have items for this section, but if you have presented or published research findings, you are welcome to include them here
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Code Sprachen}{: Java, Python, C/C++, Matlab,Arduino, HTML/CSS, C\texxtbackslash\#} \\
+     
+     \item \textbf{Werkzeuge}{: GitHub, VS Code, Fusion, MS-Office, Qt Creator, Anaconda}\\
+    }}
+ \end{itemize}
+% % % % END OPTIONAL SECTION RESEARCH PRESENTATIONS % % % %
+
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE 
+%-----------AWARDS & HONORS-----------
+\section{Aktivitäten und Führung} 
+% This section can include academic achievements and honors as well as recognition in your community. Remove or add sections as needed.
+\resumeSubHeadingListStart
+
+\resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if ongoing)
+        {AlmanFest}{2018-2020}
+        {Ein Schulmusikfestival}{Istanbul, Türkei}
+      \resumeItemListStart
+        \small\resumeItem{Management eines Festivals mit über 5000 Personen und einem Budget von 63.000 €}
+        \resumeItem{Leitung von Treffen mit großen türkischen Unternehmen wie Eczacıbaşı, Doğuş Group und Mars Media, bei denen Projektvorschläge präsentiert und wichtige Sponsoringverträge abgeschlossen wurden}
+      
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+% % % % END OPTIONAL SECTION AWARDS & HONORS % % % %
+
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE 
+%-----------SKILLS-----------
+\section{Sprachen}
+% This section can include programming or spoken languages, text editing and general software knowledge, certifications, version control or project management tools, or other skills that might be relevant. You can include as many or as few as you like: delete or add as needed.  
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Turkish}{: C2 / Muttersprache} \\
+     \textbf{German}{: C1 / Fließend}\\
+     \textbf{English}{: C1 / Fließend} \\
+    }}
+ \end{itemize}
+% % % % END OPTIONAL SECTION SKILLS % % % %
+
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE 
+%-----------OTHER INTERESTS-----------
+\section{Weitere Interessen}
+% Also an optional section, for any hobbies, sports, artistic and musical pursuits, etc. that you would like to include. You can include as many or as few as you like: delete or add as needed. 
+
+     \resumeItemListStart
+        \normalsize{}\resumeItem{Basketball, Reisen, Fotografie, Neurologie}
+        
+    \resumeItemListEnd   
+ 
+% % % % END OPTIONAL SECTION OTHER INTERESTS % % % %
+
+\end{document}

@@ -1,0 +1,278 @@
+% Welcome to the simple DIS curriculum vitae template!
+% Please delete any sections that do not apply to your past experiences. We do not expect that applicants will have itmes for all of the sections included here. You can also rename or revise sections to best fit with your personal accomplishments.
+% The final document should not exceed 3 pages
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage[sfdefault]{inter} 
+\usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{0.0in}
+\addtolength{\evensidemargin}{0.0in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{-0.6in}  % pull content up
+\addtolength{\textheight}{0.0in}
+
+
+\urlstyle{same}
+
+%\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \it\vspace{3pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+
+\begin{center}
+    { \textbf{\Huge \scshape Mert Önder}} \\ \vspace{3pt}
+   \small +49 17684492334 $|$ {\underline{\url{mertonder51@gmail.com}}} $|$ {\underline{\url{www.linkedin.com/in/mert--onder/}}} $|$ {\underline{\url{www.github.com/MertOender}}}
+\end{center}
+
+
+
+
+%-----------EDUCATION-----------
+% Please list your current institution first and then past schools in reverse chronology. No need for grades, etc. You do not need to include high school but may do so if there are accomplishments you would like to highlight.
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if in progress)
+{Technical University of Munich}{October 2022 -- April 2026}
+        {B.Sc Electrical Engineering and Information Technology}{Munich, Germany} 
+        \resumeItemListStart
+       \small\resumeItem {Current Grade: 2.0}
+       \resumeItemListEnd
+       \vspace{0.1cm}
+    \resumeSubheading
+        {German School Istanbul}{September 2017 -- June 2022}
+        {Deutsche Ausland Gymnasium - Abitur: 1.5}{Istanbul, Turkey}
+        \vspace{0.1cm}
+    \resumeSubheading
+        {Özel ALEV Okulları}{September 2008 -- June 2017}
+        {Primary \& Middle School 
+        - TEOG: top \%0,007 in whole Turkey}{Istanbul, Turkey}
+
+\resumeSubHeadingListEnd
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Experience}
+% if you have been employed, do volunteer activities, or have held other formal or informal jobs, you can list them here.   
+\resumeSubHeadingListStart
+\resumeSubheading
+        {Embedded AI in Real-Time Applications}  {November 2024 - April 2026}
+        {Infineon Technologies - Working Student}{Munich, Germany}
+        \vspace{0.09cm}
+        \resumeItemListStart
+        \small\resumeItem{Developing realtime AI systems to enable sensorless motor controll running on edge devices. Worked on several projects like anomaly detection on realtime for motor safety and sensorless position estimation on chip.}
+        \vspace{0.05cm}
+        \resumeItem{Contributing to the development and porting of environment solutions for AURIX Microcontroller.}
+        
+        \resumeItemListEnd
+          \vspace{0.2cm}
+    \resumeSubheading
+        {NEURA Robotics Challange}  {April 2025 - October 2025}
+        {A BCI driven Robotics projects - Team Lead}{Munich, Germany}
+        \vspace{0.09cm}
+        \resumeItemListStart
+        \small\resumeItem{Participated NEURA robotics research challange where each team was provided with a robotic hand to perform a creative task}
+        \vspace{0.05cm}
+        \resumeItem{Developed a SSVEP based realtime Brain-Computer-Interface (BCI) pipeline on ROS framework to controll a MAIRA robotic arm in realtime.}
+        \vspace{0.05cm}
+        \resumeItem{Finished the challange as one of the 6 finalists and rewarded with 10.000€ money price, currently beeing used for further development of the project}
+        \vspace{0.2cm}
+\resumeItemListEnd
+\resumeSubheading
+        {Tutor - System Theory}{April 2024  -- August 2024}
+        {Chair of Methods of Signal Processing-Dr.-Ing Michael Joham}{Munich, Germany}
+        \vspace{0.09cm}
+        \resumeItemListStart
+        \small\resumeItem{Initiated a comprehensive lecture series attended by 80+ students, aimed at deepening their understanding of System Theory.}
+        \vspace{0.05cm}
+        \resumeItem{Participants reported a significant boost in exam scores and a greater willingness to embrace academic challenges.}
+        \vspace{0.05cm}
+        \resumeItem{Guided students in adopting effective study habits and exam strategies, resulting in 30\% improvement in passing rates.}
+        \resumeItemListEnd
+          \vspace{0.2cm}
+\resumeSubheading
+        {Assessment of Neurological Diseases}{January 2024  -- June 2024}
+        {TUM Project Week}{Munich, Germany}
+        \vspace{0.09cm}
+        \resumeItemListStart
+        \small\resumeItem{Engineered a C\#-based application to collect critical data from Multiple Sclerosis patients, enhancing the accuracy and efficiency of data gathering by 40\% compared to previous methods.}
+        \vspace{0.05cm}
+        \resumeItem{Enhanced diagnostic accuracy by 20\% through the implementation of evidence-based neurological disease diagnosis methods, positively impacting patient care.}
+         \vspace{0.05cm}
+         \resumeItem{Authored a research paper detailing the methodology and findings from the project, contributing to the academic discourse on neurological disease assessment.}
+        \resumeItemListEnd
+        \vspace{0.05cm}
+\resumeSubheading
+        {Blockpraktikum C++}{March 2024}
+        {Technical University of Munich}{Munich, Germany}
+        \vspace{0.09cm}
+        \resumeItemListStart
+        \small\resumeItem{Collaborated with a team of 3 to develop a complex software project, successfully delivering the project with the best note of 1.0.}
+        \vspace{0.05cm}
+        \resumeItem{Acquired in-depth knowledge of the structure of large C++ projects and mastered the creation of Qt projects, strengthening my programming expertise in high-level software development environments.}
+        \resumeItemListEnd
+        \vspace{0.2cm}
+\resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if ongoing)
+        {Advisor Programm (Robotics Race)}{October 2022  -- July 2023}
+        {Team Leader}{Munich, Germany}
+        \vspace{0.09cm}
+      \resumeItemListStart
+        \small\resumeItem{Lead a team of 10 to build a functioning kitchen robot that makes a customised sandwich for the consumer}
+        \vspace{0.05cm}
+        \resumeItem{Designed and built the body components with 3D modeling.}
+        \vspace{0.05cm}
+        \resumeItem{Programmed the microcontroller of the machine using C as a programming language}
+        \vspace{0.05cm}
+        \resumeItem{Moderated group meetings and set milestones}
+        \vspace{0.1cm}
+         \resumeItem{{\url{www.ce.cit.tum.de/lsr/lehre/advisor/aktuelles/}}}
+        \resumeItemListEnd
+         
+\resumeSubHeadingListEnd
+% % % % END OPTIONAL SECTION PROFESSIONAL EXPERIENCE % % % %
+
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE
+%-----------RESEARCH PRESENTATIONS-----------
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Certificates and Awards}
+% this section can include experience gained in coursework, or group or independent research projects
+% delete or add Subheading sections as needed
+\resumeSubHeadingListStart
+\resumeSubheading   
+        {Finalist at NEURA robotics challange}{April 2025 - October 2025}
+        {Participated part of neuroTUM as team lead}{Esslingen, Germany}\break
+        \vspace{0.1cm}
+\resumeSubheading   
+        {AI Programming with Python - Bertelsmann}{December 2023 - June 2024}
+        {Scholarship student of the online platform Udacity}{Online, Self-paced}\break
+        \resumeItemListStart
+         \small\resumeItem{{\url{https://t.ly/5EFDU}}}
+        \resumeItemListEnd
+        \vspace{0.1cm}
+\resumeSubheading   
+        {First Place at Advisor competition}{July 2023}
+        {Technical University of Munich}{Munich, Germany}\break
+      \vspace{0.1cm}
+\resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if ongoing)
+        {Object-oriented Programming}{October 2022}
+        {Technical University of Munich}{Online, Self-paced}
+      \resumeItemListStart
+        \small\resumeItem{{\url{https://t.ly/N-2HW}}}
+
+    \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+\section{Technical Skills}
+\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l}
+\textbf{Programming}: C/C++, Java, Python (PyTorch, Pandas, Matplotlib, TensorFlow, pylsl), MATLAB,\\ Arduino, HTML/CSS, C\# \\
+\vspace{0.1cm}
+\textbf{Tools}: GitHub, VS Code, Fusion, MS Office, Qt Creator, Anaconda
+\end{tabular*}
+% % % % END OPTIONAL SECTION RESEARCH PRESENTATIONS % % % %
+
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE 
+%-----------AWARDS & HONORS-----------
+\section{Activities  and Leadership} 
+% This section can include academic achievements and honors as well as recognition in your community. Remove or add sections as needed.
+\resumeSubHeadingListStart
+\resumeSubheading
+% list month-year for the start date followed by month-year for the end date (or "Present" if ongoing)
+        {NeuroTUM}{October 2024 - Ongoing}
+        {A student club at TUM focused on neuroscience}{Munich, Germany}
+      \resumeItemListStart
+      \vspace{0.1cm}
+        \small\resumeItem{Co-founder and team lead of a subgroup called neuromotion, where we try to create a assistive robotic arm system controlled with a realtime Brain-Computer-Interface.}
+        \vspace{0.05cm}
+        \resumeItem{Our project has the goal to help tetraplegic people handle daily tasks without further help from others.}
+        \vspace{0.05cm}
+      
+    \resumeItemListEnd
+% list month-year for the start date followed by month-year for the end date (or "Present" if ongoing)
+\resumeSubheading
+        {AlmanFest}{2018-2020}
+        {A school music festival}{Istanbul, Turkey}
+      \resumeItemListStart
+      \vspace{0.1cm}
+        \small\resumeItem{Managed a festival with over 5000 people with a budget of €63.000}
+        \vspace{0.05cm}
+        \resumeItem{Led meetings with major corporations in Turkey such as Eczacıbaşı, Doğuş Group and Mars Media in which we presented our project proposals and landed major sponsorships}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+ 
+% % % % END OPTIONAL SECTION AWARDS & HONORS % % % %
+
+% OPTIONAL SECTION : DELETE FROM HERE UNTIL % % % % TO REMOVE 
+%-----------SKILLS-----------
+\section{Languages}
+% This section can include programming or spoken languages, text editing and general software knowledge, certifications, version control or project management tools, or other skills that might be relevant. You can include as many or as few as you like: delete or add as needed.  
+\newcommand{\langgap}{0.5cm} % <— set your gap once
+\noindent
+\textbf{Turkish}: C2 / Native\hspace{\langgap}
+\textbf{German}: C1 / Fluent\hspace{\langgap}
+\textbf{English}: C1 / Fluent
+% % % % END OPTIONAL SECTION SKILLS % % % %
+
+
+
+\end{document}
